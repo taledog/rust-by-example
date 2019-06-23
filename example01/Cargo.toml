@@ -1,0 +1,18 @@
+[package]
+name = "example01"
+version = "0.1.0"
+authors = ["arden <arden@tujiao.com>"]
+workspace = ".."
+edition = "2018"
+
+
+[[bin]]
+name = "hello"
+path = "src/hello.rs"
+
+[[bin]]
+name = "display"
+path = "src/display.rs"
+
+
+[dependencies]
