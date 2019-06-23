@@ -14,5 +14,24 @@ path = "src/hello.rs"
 name = "display"
 path = "src/display.rs"
 
+[[bin]]
+name = "comments"
+path = "src/comments.rs"
+
+[[bin]]
+name = "debug"
+path = "src/debug.rs"
+
+[[bin]]
+name = "formatted_print"
+path = "src/formatted_print.rs"
+
+[[bin]]
+name = "formatting"
+path = "src/formatting.rs"
+
+[[bin]]
+name = "testcase_list"
+path = "src/testcase_list.rs"
 
 [dependencies]
